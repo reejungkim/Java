@@ -1,0 +1,60 @@
+1. What is an object in JAVA? Example of Student and Date Objects.
+
+2. How are Objects created? How do you manipulate objects? How is encapsulation acheived?
+
+3. Variables - Local/instance, primitive/reference.
+
+4. 'Test' classes. Are they really needed?
+
+5. Create a Date class. Allow a Date object to be created, with appropriate parameters. Allow the instance variables to be private or public. What is the impact of this choice? Have a method 'displayDate' that prints the current date in the object in mm/dd/yy format.
+
+Create a separate 'DateTest' class to create various Date objects. Call the 'displayDate'  to print the date.
+
+Submit the two source files and class files and sample output.
+
+6. Modify the Account class given in the book to add an additional method 'withdraw', which takes an double parameter 'amount' and this is the amount to be withdrawn. Adjust the balance appropriately. Should any safeguards be required? If yes, code it. Write a driver/test program:
+
+1. create an account with 100 initial balance.
+
+2. make a deposit of 75.
+
+3. display the current balance.
+
+4. make a withrawal of 125.
+
+5. display the current balance.
+
+6. make a withrawal of 200. What does your program do?
+
+7. display the current balance.
+
+Submit the two source files and class files and sample output.
+
+7. Write a second test program to do the following:
+
+1. create an account with 100 initial balance.
+
+2. ask the user for an amount. make a deposit of the user entered amount.
+
+3. display the current balance.
+
+4. ask the user for an amount. make a withdrawal of the user entered amount.
+
+5. display the current balance.
+
+Basic Questions on page 100 -
+
+3.5 (Keyword new) What’s the purpose of keyword new? Explain what happens when you use it.
+
+
+3.6 (Default Constructors) What is a default constructor? How are an object’s instance variables
+initialized if a class has only a default constructor?
+
+
+3.7 (Instance Variables) Explain the purpose of an instance variable.
+
+
+3.8 (Using ClassesWithout Importing Them) Most classes need to be imported before they can be used in an application.Why is every application allowed to use classes System and String without first importing them?
+
+
+3.9 (Using a Class Without Importing It) Explain how a program could use class Scanner without importing it.
